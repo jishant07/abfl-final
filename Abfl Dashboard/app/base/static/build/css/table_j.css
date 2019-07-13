@@ -1,0 +1,53 @@
+/*#customers {
+  font-family: "Montserrat", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+ td{
+  width: 202px;
+  height:25px;
+}
+
+ td, th {
+  border: 0.5px solid #ddd;
+  padding: 8px;
+}
+ tr:hover {background-color: #ddd;}
+ th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: rgb(199, 34, 42);
+  color: white;
+}
+a{
+  color: white;
+}
+ thead {
+  table-layout: sticky;
+  position: fixed;
+}
+.fixed th {
+  width:auto;
+
+}
+ tbody {
+  overflow: auto;
+  width: 100%;
+
+}
+*/
+ tr:nth-child(even)
+ {
+  background-color: rgba(199, 34, 42,0.5);
+  color:white;
+ }
+ thead
+ {
+  background: rgb(199,34,42);
+ }
+ table
+ {
+  overflow-x: scroll;
+  overflow-y: scroll;
+ }
